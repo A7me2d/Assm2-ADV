@@ -183,26 +183,48 @@ namespace Assm2_ADV
             #endregion
 
             #region Generic Collections Lists First in last out
-          //  Stack<int> stack = new Stack<int>();
-          //  stack.Push(1);
-          //  stack.Push(2);
-          //  stack.Push(3);
+            //  Stack<int> stack = new Stack<int>();
+            //  stack.Push(1);
+            //  stack.Push(2);
+            //  stack.Push(3);
 
-          //  //Console.WriteLine();stack.Peek();
+            //  //Console.WriteLine();stack.Peek();
 
-          //  Console.WriteLine(stack.Pop());
-          //  Console.WriteLine(stack.Pop());
-          //  //Console.WriteLine(stack.Pop());
+            //  Console.WriteLine(stack.Pop());
+            //  Console.WriteLine(stack.Pop());
+            //  //Console.WriteLine(stack.Pop());
 
-          //bool Result =  stack.TryPop(out int Element);
-          //  Console.WriteLine("============");
-          //  foreach (int item in stack)
-          //  {
-          //      Console.WriteLine(item);
-          //  }
+            //bool Result =  stack.TryPop(out int Element);
+            //  Console.WriteLine("============");
+            //  foreach (int item in stack)
+            //  {
+            //      Console.WriteLine(item);
+            //  }
 
             #endregion
 
+            #region Generic Collection Lists [Queue] First in Last Out
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+
+            //Console.WriteLine(queue.Peek());
+            //Console.WriteLine(queue.Peek());
+            //Console.WriteLine(queue.Peek());
+            ////Console.WriteLine(queue.Peek());
+
+            //bool Result = queue.TryDequeue(out int Element);
+            //Console.WriteLine(Result);
+            //Console.WriteLine(Element);
+            //Console.WriteLine("================================");
+
+            //foreach (int item in queue)
+            //    Console.WriteLine(item);
+
+
+            #endregion
         }
     }
 }
