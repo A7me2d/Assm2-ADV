@@ -146,7 +146,7 @@ namespace Assm2_ADV
             //Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
 
             //List<int> Numbers = new List<int>(10) { 1, 2, 3, 4, 5,4,3,2,5 };
-            
+
             //foreach (int num in Numbers) 
             //    Console.WriteLine(num);
 
@@ -162,6 +162,24 @@ namespace Assm2_ADV
 
 
 
+            #endregion
+
+            #region Generic Collections - lists
+
+            //LinkedList<int> linkedList = new LinkedList<int> ();
+            //Console.WriteLine(linkedList.Count);
+
+            //linkedList.AddFirst(1);
+            //linkedList.AddLast(2);
+            //LinkedListNode<int> AfterNode = linkedList.Find(1);
+            ////LinkedList.AddAfter(2);
+            ////Console.WriteLine(LinkedList.Count);
+            //linkedList.AddAfter(AfterNode, 5);
+            //linkedList.AddBefore(linkedList.Find(2) , 10);
+            //foreach (int i in linkedList)
+            //    Console.WriteLine(i);
+            //Console.WriteLine(linkedList.Count);
+ 
             #endregion
         }
     }
