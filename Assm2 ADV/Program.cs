@@ -14,6 +14,17 @@ namespace Assm2_ADV
             
             return sum;
         }
+
+        public static int SumList(List<int> list)
+        {
+            int sum = 0;
+            if (list is not null)
+            {
+                for (int i = 0; i < list.Count; i++)
+                    sum += list[i];
+            }
+            return sum;
+        }
         static void Main(string[] args)
         {
             #region NOnGeneric
@@ -62,6 +73,36 @@ namespace Assm2_ADV
             //};
             #endregion
 
+            #region Generic Collection = list
+            //List<int> Number = new List<int>();
+            //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
+           
+            //Number.Add(1);
+            //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
+           
+            //Number.Add(2);
+            //Number.AddRange(new int[] { 3, 4 });
+            //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
+            //List<int> Number = new List<int>(5) { 1 , 2 , 3 , 4 , 5};
+            //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
+
+
+            //Number.Add(6);
+            //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
+
+            //foreach (int item in Number)
+            //    Console.WriteLine(item);
+
+            //Number[3] = 40;
+            //for(int i = 0; i < Number.Count; i++)
+            //   Console.WriteLine(Number[i]);
+
+            ////Number.Add(100);
+
+
+            //int Result = SumList(Number);
+            //Console.WriteLine(Number);
+            #endregion
 
         }
     }
