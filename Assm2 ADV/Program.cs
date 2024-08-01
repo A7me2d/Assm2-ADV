@@ -76,10 +76,10 @@ namespace Assm2_ADV
             #region Generic Collection = list
             //List<int> Number = new List<int>();
             //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
-           
+
             //Number.Add(1);
             //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
-           
+
             //Number.Add(2);
             //Number.AddRange(new int[] { 3, 4 });
             //Console.WriteLine($"Cpunt Of List = {Number.Count} , Capacity of arraylist = {Number.Capacity}");
@@ -104,6 +104,65 @@ namespace Assm2_ADV
             //Console.WriteLine(Number);
             #endregion
 
+            #region List Methods
+            //Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
+
+            //Numbers.Add(5);
+            ////Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
+
+            //Numbers.AddRange(new int[] { 6 , 7});
+            //Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
+            //Numbers.Insert(6, 8);
+            //Numbers.InsertRange(4, new int[] { 9, 10 });
+
+
+            //foreach (int item in Numbers)
+            //    Console.WriteLine($" {item}");
+
+            //Console.WriteLine("\n=================");
+            //int index = Numbers.BinarySearch(100);
+            //Console.WriteLine(index);
+
+
+            //Numbers.Clear();
+            //Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
+
+            //Console.WriteLine(Numbers.Contains(100));
+
+            //List<int> Numbers = new List<int>(4) { 1, 2, 3, 4 };
+
+            //int[] array = new int[10];
+
+            ////Numbers.CopyTo(array , 3);
+
+            ////Numbers.CopyTo(1, array , 5 , 3 );
+            //foreach (int i in array)
+            //    Console.WriteLine(i);
+
+
+            //List<int> Numbers = new List<int>(4) { 1, 2, 3, 4 };
+            //Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
+            //Numbers.EnsureCapacity(10);
+            //Console.WriteLine($"Cpunt Of List = {Numbers.Count} , Capacity of arraylist = {Numbers.Capacity}");
+
+            //List<int> Numbers = new List<int>(10) { 1, 2, 3, 4, 5,4,3,2,5 };
+            
+            //foreach (int num in Numbers) 
+            //    Console.WriteLine(num);
+
+            //Numbers.Remove(3);
+            //Numbers.TrueForAll();
+            //Console.WriteLine("=============");
+
+            //foreach (int num in Numbers)
+            //    Console.WriteLine(num);
+
+            //int index = Numbers.LastIndexOf(3);
+            //Console.WriteLine(index);
+
+
+
+            #endregion
         }
     }
 }
