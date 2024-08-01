@@ -7,11 +7,11 @@ namespace Assm2_ADV
         public static int SumarrrayList(ArrayList arrayList)
         {
             int sum = 0;
-            if (arrayList is not null)           
+            if (arrayList is not null)
                 for (int i = 0; i < arrayList.Count; i++)
                     sum += (int)arrayList[i];
-                
-            
+
+
             return sum;
         }
 
@@ -179,8 +179,30 @@ namespace Assm2_ADV
             //foreach (int i in linkedList)
             //    Console.WriteLine(i);
             //Console.WriteLine(linkedList.Count);
- 
+
             #endregion
+
+            #region Generic Collections Lists First in last out
+          //  Stack<int> stack = new Stack<int>();
+          //  stack.Push(1);
+          //  stack.Push(2);
+          //  stack.Push(3);
+
+          //  //Console.WriteLine();stack.Peek();
+
+          //  Console.WriteLine(stack.Pop());
+          //  Console.WriteLine(stack.Pop());
+          //  //Console.WriteLine(stack.Pop());
+
+          //bool Result =  stack.TryPop(out int Element);
+          //  Console.WriteLine("============");
+          //  foreach (int item in stack)
+          //  {
+          //      Console.WriteLine(item);
+          //  }
+
+            #endregion
+
         }
     }
 }
